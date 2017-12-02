@@ -1,0 +1,15 @@
+{
+  "order.service.http.address": "0.0.0.0",
+  "order.service.http.port": 8081,
+  "api.name": "orderservice",
+  "provider_class":"io.vertx.ext.jdbc.spi.impl.HikariCPDataSourceProvider",
+  "jdbcUrl": "jdbc:mysql://localhost:3306/vertx_blueprint?characterEncoding=UTF-8&useSSL=false",
+  "driverClassName": "com.mysql.cj.jdbc.Driver",
+  "username": "root",
+  "password": "1q2w3e",
+  "connectionTestQuery": "select 1 from dual",
+  "maximumPoolSize":100,
+  "connectionTimeout":3000,
+  "idleTimeout":1800,
+  "poolName":"HikariCPDataSource-Order"
+}

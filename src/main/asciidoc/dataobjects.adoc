@@ -1,0 +1,22 @@
+= Cheatsheets
+
+[[Order]]
+== Order
+
+++++
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[buyerId]]`buyerId`|`String`|-
+|[[createTime]]`createTime`|`Number (Integer)`|-
+|[[id]]`id`|`Number (Long)`|-
+|[[orderId]]`orderId`|`Number (Long)`|-
+|[[payId]]`payId`|`String`|-
+|[[products]]`products`|`Array of link:dataobjects.html#Product[Product]`|-
+|[[totalPrice]]`totalPrice`|`Number (Integer)`|-
+|===
+
