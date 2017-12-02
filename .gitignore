@@ -1,5 +1,4 @@
 .idea/
 .vertx/
-pom.xml
 target/
 vertxlearn.iml
